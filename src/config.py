@@ -6,7 +6,7 @@ BASE_DIR = Path(__file__).parent.parent
 
 
 class EnvData(BaseSettings):
-    # REDIS_PASSWORD: str
+    REDIS_PASSWORD: str
     REDIS_HOST: str
     REDIS_PORT: int
 
